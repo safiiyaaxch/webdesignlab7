@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(88, 1, 1);
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3 {
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.gallery {
+  border: 5px solid #fdd0d0;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-left: 30px;
+  }
+  
+  div.gallery:hover {
+    border: 2px solid #ffcece;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height:auto;
+    display: block;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #c35757;
+    border-top: 1px solid #ddd;
+  }
+  
+  * {
+    box-sizing:border-box;
+  }
+  
+  .responsive {
+    padding: 0 8px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media (max-width: 700px) {
+    .gallery-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .gallery {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  h1{
+    text-align: center;
+    background-color:rgb(246, 208, 159);
+    color: black;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  h3{
+    margin-left: 50px;
+  }
+
+  .progress-section{
+    margin-top: 40px;
+  }
+
+  .progress-section h3{
+    margin-bottom: 20px;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0px auto;
+  }
+  
+  .progress-container {
+    width: 80%;
+    background: #e0e0e0;
+    border-radius: 10px;
+    margin: 0 auto 20px auto;
+    overflow: hidden;
+    height: 25px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    width: 0%;
+    background: #f49ea1;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #de6e66;
+    color: #fff;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #ffb566;
+  }
+
+  .container h2{
+    margin-top: 70px;
+  }
